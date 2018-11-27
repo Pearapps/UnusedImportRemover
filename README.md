@@ -7,7 +7,7 @@ This is a relatively script that is super slow, but has proven on a couple proje
 ### Limitations:
 
 1. It is slow, as mentioned before.
-2. You must provide the path to the project and how to compile your project in the actual source.
+2. You must provide the path to the project and how to compile your project in the actual source (the first two variables)
 3. Does not take into account all possible preprocessor `#ifdef`s, etc around your imports.
 4. Only really used on 2-3 projects so you might have some edge cases and directories you dont want it to touch. 
 
