@@ -8,7 +8,10 @@
 
 import Foundation
 
+// The path of the project you want to run this on
 let path = "/Users/Ken/Dev/APPNAME"
+
+// The command to build your project - you can really use anything that uses reasonable exit codes but this command should build most iOS projects that use workspaces, after you replace APPNAME with your information
 let command = "cd \(path) && xcodebuild ARCHS=arm64 ONLY_ACTIVE_ARCH=YES -configuration Debug -workspace ./APPNAME.xcworkspace -scheme APPNAME"
 
 
